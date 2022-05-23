@@ -1,7 +1,9 @@
 "Sample module to show how packages are built"
 module PointLib
 
-greet() = print("Hello World!") # Created by generate commmaand
+greet() = print("Hello World!") # Created by generate command
+
+prova() = print("Prova")
 
 using LinearAlgebra
 
