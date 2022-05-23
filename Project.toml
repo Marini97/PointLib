@@ -1,0 +1,13 @@
+name = "PointLib"
+uuid = "362eea6c-f1d2-4d19-8435-41919560213a"
+authors = ["Valerio <marinivalerio97@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
