@@ -17,6 +17,5 @@ makedocs(
 	
 deploydocs(
     repo   = "github.com/Marini97/PointLib.jl.git",
-	versions = nothing
 )
 
