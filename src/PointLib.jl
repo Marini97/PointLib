@@ -3,11 +3,9 @@ module PointLib
 
 greet() = print("Hello World!") # Created by generate command
 
-prova() = print("Prova")
 
 using LinearAlgebra
 
-export Point2D, iscollinear, ϵ
 
 """
     Point2D
@@ -57,5 +55,7 @@ function iscollinear(pA::Point2D, pB::Point2D, pC::Point2D)
   l <= ϵ() && return true
   return 2∆(pA, pB, pC)/l <= ϵ()
 end
+
+include("./prova.jl")
 
 end # module

@@ -1,17 +1,22 @@
-```@docs 
-<methods or types>
-```
-# Reference
-
-This page has references to all the exported types and functions.
-
-## Types
-```@docs
-Point2D
+```@autodocs
+Modules = [PointLib]
+Order = [:module]
 ```
 
-## Functions
-```@docs
-ϵ
-iscollinear
+# Riferimenti
+
+Questa pagina ha i riferimenti a tutti i tipi, metodi e funzioni utilizzati.
+
+## Tipi
+
+```@autodocs
+Modules = [PointLib]
+Order = [:type]
+```
+
+## Funzioni
+
+```@autodocs
+Modules = [PointLib]
+Order = [:function]
 ```
